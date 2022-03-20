@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/yuzhe/static/css/main.e46a991c.css",
+    "main.js": "/yuzhe/static/js/main.6650fcbe.js",
+    "static/js/787.4255b503.chunk.js": "/yuzhe/static/js/787.4255b503.chunk.js",
+    "index.html": "/yuzhe/index.html",
+    "main.e46a991c.css.map": "/yuzhe/static/css/main.e46a991c.css.map",
+    "main.6650fcbe.js.map": "/yuzhe/static/js/main.6650fcbe.js.map",
+    "787.4255b503.chunk.js.map": "/yuzhe/static/js/787.4255b503.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e46a991c.css",
+    "static/js/main.6650fcbe.js"
+  ]
+}
