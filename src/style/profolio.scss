@@ -1,0 +1,94 @@
+.profolio {
+    width: 100%;
+    flex-grow: 1;
+    margin-top: 10vh;
+    width: 90%;
+    button {
+        padding: 1vw;
+        border-radius: 0.5vw;
+        border: none;
+        background: #a01252;
+        font-size: 20px;
+        font-weight: bold;
+        color: white;
+        // margin-bottom: 1vh;
+        margin: 1vh 1vw 1vh 0;
+        transition: 0.2s;
+        cursor: pointer;
+        &:active {
+            background: #570328;
+        }
+        &.active {
+            background: #570328;
+        }
+    }
+    h1 {
+        margin: 0 0 2vh 0 !important;
+    }
+    .section {
+        margin: 5vh 0;
+    }
+    .word-group {
+        margin: 0 0 5vh 0;
+        h2 {
+            margin-bottom: 1vh !important;
+        }
+    }
+    .taco {
+        padding: 1vw;
+        background: #1c1d20;
+        // border: 1px solid red;
+        border-radius: 0.5vw;
+        .taco-photos {
+            display: inline-flex;
+            width: 100%;
+
+            figure {
+                display: inline;
+                width: 20vw;
+                height: 20vw;
+                overflow: hidden;
+                img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                }
+            }
+        }
+    }
+    .dog {
+        padding: 1vw;
+        background: #1c1d20;
+        // border: 1px solid red;
+        border-radius: 0.5vw;
+
+        .dog-photo {
+            display: flex;
+            align-items: center;
+            figure {
+                overflow: hidden;
+                img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                }
+            }
+        }
+
+        .dog-project-photo {
+            display: flex;
+            align-items: center;
+            figure {
+                // width: 30vw;
+                height: 50vh;
+                overflow: hidden;
+                flex-shrink: 0;
+                img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                }
+            }
+        }
+    }
+}

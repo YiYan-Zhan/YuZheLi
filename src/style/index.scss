@@ -1,0 +1,108 @@
+$background: #f3e1dd;
+$font-color: #333;
+$header: #252323;
+@import "./about.scss";
+@import "./profolio.scss";
+html {
+    background: $font-color;
+}
+.background {
+    min-height: 100vh;
+    // background: url("http://localhost:3000/image/banner2.jpg") center center
+    //     no-repeat;
+    // background-size: cover;
+    // opacity: 0.9;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+header {
+    color: $font-color;
+    background: $header;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    // padding: 1vw;
+    height: 8vh;
+    box-shadow: 0px 3px 3px rgba(50, 50, 50, 0.5);
+    z-index: 100;
+    position: fixed;
+    width: 100%;
+    h2 {
+        color: white;
+        padding: 1vw;
+    }
+    ul {
+        margin: 0;
+        list-style: none;
+        display: flex;
+        padding: 0;
+
+        li {
+            margin: 1vw;
+            color: white;
+            border-bottom: 2px solid transparent;
+
+            &.active {
+                border-bottom: 2px solid white;
+            }
+        }
+    }
+}
+.banner {
+    height: 100vh;
+    background: url("http://localhost:3000/image/banner2.jpg") center center
+        no-repeat;
+    background-size: cover;
+    // opacity: 0.9;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+    margin: 0 !important;
+    color: white !important;
+}
+
+.link {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+}
+.slogans {
+    margin: 2vh 0 2vh 0;
+    .slogan {
+        font-size: 48px;
+    }
+    .text-shadow {
+        text-shadow: 3px 3px 3px rgba(50, 50, 50, 0.8);
+    }
+}
+
+.sub-slogan {
+    color: white;
+    font-size: 25px;
+    // width: 20vw;
+    // line-height: 200%;
+    // margin-left: 2vw !important;
+}
+
+.font-awsome {
+    color: white;
+    font-size: 28px;
+    margin-bottom: 1vh;
+}
+.go-home {
+    .link {
+        font-size: 28px;
+    }
+}
